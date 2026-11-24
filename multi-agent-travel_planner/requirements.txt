@@ -1,0 +1,19 @@
+# Smart Travel Planner - Dependencies
+# Multi-agent system using LangChain's SubAgents pattern
+
+# Core LangChain & LangGraph packages
+langchain>=0.3.0
+langgraph>=0.2.0
+
+# LLM Providers
+langchain-groq>=1.2.0
+langchain-openai>=0.2.0
+
+# Backend Web API & Streaming
+fastapi>=0.115.0
+uvicorn>=0.32.0
+sse-starlette>=2.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.9.0
